@@ -76,8 +76,11 @@ h1 em, h2 em { color: var(--gold); font-weight: 400; }
 
 /* Service index */
 .service-rail { margin: 0 var(--pad); padding: 68px 0; display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); border-bottom: 1px solid var(--line); }
+.service-rail { margin-top: 0; padding-top: 82px; padding-bottom: 82px; position: relative; border-top: 1px solid var(--gold); background: radial-gradient(circle at 8% 50%, rgba(198,161,94,.12), transparent 28%); }
+.service-rail::before { content: '01 / THE SERVICE EDIT'; position: absolute; top: 20px; left: 0; color: var(--gold); font: 9px var(--mono); letter-spacing: .18em; }
 .rail-intro { padding-right: clamp(25px, 4vw, 60px); display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; }
 .rail-intro h2 { font-size: clamp(42px, 4.6vw, 70px); }
+.rail-intro::after { content: 'Tap a service to reserve your chair'; margin-top: 22px; color: var(--muted); font: 9px var(--mono); letter-spacing: .12em; text-transform: uppercase; }
 .rail-intro .eyebrow { margin-bottom: 12px; }
 .rail-service { min-height: 320px; padding: 0 18px; position: relative; display: flex; flex-direction: column; align-items: flex-start; border: 0; border-left: 1px solid var(--line-light); background: transparent; text-align: left; cursor: pointer; }
 .rail-service img { height: 168px; margin-bottom: 22px; filter: saturate(.55) contrast(1.05); transition: filter .35s, transform .45s; }
@@ -103,6 +106,12 @@ h1 em, h2 em { color: var(--gold); font-weight: 400; }
 
 /* Services */
 .services-section, .packages-section, .gallery-section { padding: var(--section) var(--pad); }
+.services-section { position: relative; background: linear-gradient(180deg, var(--ink) 0%, #0e0d0b 100%); }
+.services-section::before { content: 'SERVICES'; position: absolute; top: 52px; right: var(--pad); color: rgba(198,161,94,.08); font: 700 clamp(70px, 13vw, 190px)/1 var(--sans); letter-spacing: -.1em; pointer-events: none; }
+.services-section .section-head { position: relative; z-index: 1; }
+.services-section .service-list { position: relative; z-index: 1; }
+.services-section .service-row:nth-child(n+5) { background: rgba(198,161,94,.035); }
+.services-section .service-row:nth-child(n+5) .service-index { color: #dfbc78; }
 .section-head { margin-bottom: 70px; display: grid; grid-template-columns: 1fr minmax(240px, 360px); gap: 8vw; align-items: end; }
 .section-head h2 { font-size: clamp(50px, 7vw, 104px); }
 .section-head > p { margin: 0 0 6px; color: var(--muted); font-size: 13px; line-height: 1.8; }
