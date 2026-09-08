@@ -14,13 +14,13 @@ const services = [
   { name: 'Dermacose Facial', price: '3,500/-', detail: 'Deep cleansing and skin reset', image: 'generated-4k/royal-treatment-4k.jpg' },
   { name: 'Keratin Treatment', price: '8,000/-', detail: 'Smooth, silky finish for short hair', image: 'generated-4k/royal-chair-4k.jpg' },
   { name: 'Premium Hair Color', price: '3,500/-', detail: 'Professional color with service care', image: 'generated-4k/royal-studio-4k.jpg' },
-  { name: 'Manicure', price: '800/-', detail: 'Hand polish, shaping and care', image: 'generated-4k/royal-treatment-4k.jpg' },
-  { name: 'Pedicure', price: '1,800/-', detail: 'Foot polish, shaping and care', image: 'generated-4k/royal-treatment-4k.jpg' },
-  { name: 'Nail Trimming', price: '400/-', detail: 'Clean, precise hand grooming', image: 'generated-4k/royal-chair-4k.jpg' },
-  { name: 'Hand Polish', price: '800/-', detail: 'A clean, polished finish for hands', image: 'generated-4k/royal-treatment-4k.jpg' },
-  { name: 'Feet Polish', price: '1,200/-', detail: 'Careful shaping and polished finish', image: 'generated-4k/royal-treatment-4k.jpg' },
-  { name: 'Pedicure & Massage', price: '1,500/-', detail: 'Foot care with a restorative massage', image: 'generated-4k/royal-treatment-4k.jpg' },
-  { name: 'Ultimate Care Combo', price: '3,500/-', detail: 'Manicure, pedicure, polish and massage', image: 'generated-4k/royal-treatment-4k.jpg' },
+  { name: 'Manicure', price: '800/-', detail: 'Hand polish, shaping and care', image: 'generated-4k/royal-manicure-4k.jpg' },
+  { name: 'Pedicure', price: '1,800/-', detail: 'Foot polish, shaping and care', image: 'generated-4k/royal-pedicure-4k.jpg' },
+  { name: 'Nail Trimming', price: '400/-', detail: 'Clean, precise hand grooming', image: 'generated-4k/royal-nails-4k.jpg' },
+  { name: 'Hand Polish', price: '800/-', detail: 'A clean, polished finish for hands', image: 'generated-4k/royal-manicure-4k.jpg' },
+  { name: 'Feet Polish', price: '1,200/-', detail: 'Careful shaping and polished finish', image: 'generated-4k/royal-pedicure-4k.jpg' },
+  { name: 'Pedicure & Massage', price: '1,500/-', detail: 'Foot care with a restorative massage', image: 'generated-4k/royal-massage-4k.jpg' },
+  { name: 'Ultimate Care Combo', price: '3,500/-', detail: 'Manicure, pedicure, polish and massage', image: 'generated-4k/royal-manicure-4k.jpg' },
 ];
 const featuredServices = services.slice(0, 4);
 const gallery = [
