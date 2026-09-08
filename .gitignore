@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+audit-*.png
+premium-*.png
+preview-*.png
+verification-*.png
+sections-*.png
+4k-*.png
+hero-reference-preview.png
